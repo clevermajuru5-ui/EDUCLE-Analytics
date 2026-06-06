@@ -1,0 +1,6 @@
+# Production robots.txt
+User-agent: *
+Allow: /
+Disallow: /api/
+
+Sitemap: https://educle-analytics.vercel.app/sitemap.xml

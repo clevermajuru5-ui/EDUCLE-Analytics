@@ -1,0 +1,15 @@
+# Allow all bots
+User-agent: *
+Allow: /
+
+# Disallow private areas
+Disallow: /api/
+Disallow: /admin/
+Disallow: /school/
+Disallow: /student/report/
+
+# Sitemap
+Sitemap: https://educle-analytics.vercel.app/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
