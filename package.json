@@ -1,0 +1,41 @@
+{
+  "name": "educle-analytics",
+  "version": "1.0.0",
+  "description": "Student Report Card System with Analytics - Designed by Clever Majuru",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0",
+    "@supabase/supabase-js": "^2.38.0",
+    "recharts": "^2.10.0",
+    "html2pdf.js": "^0.10.1",
+    "jspdf": "^2.5.1",
+    "html2canvas": "^1.4.1",
+    "clsx": "^2.0.0",
+    "zustand": "^4.4.0",
+    "axios": "^1.6.0",
+    "@tanstack/react-query": "^5.28.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "@typescript-eslint/eslint-plugin": "^6.16.0",
+    "@typescript-eslint/parser": "^6.16.0",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react": "^7.33.2",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.8",
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0"
+  }
+}
