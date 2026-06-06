@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { AuthProvider } from '@/contexts/AuthContext'
 import { ProtectedRoute } from '@/components/Auth/ProtectedRoute'
+import { Console } from '@/components/Common/Console'
 import Landing from '@/pages/Landing'
 import AdminLogin from '@/pages/admin/Login'
 import AdminDashboard from '@/pages/admin/Dashboard'
@@ -51,6 +52,7 @@ function App() {
             }
           />
         </Routes>
+        <Console />
       </AuthProvider>
     </Router>
   )
